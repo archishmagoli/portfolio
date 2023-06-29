@@ -1,5 +1,6 @@
 "use client";
 import React, {useState, useRef, useEffect} from 'react';
+import Image from 'react-bootstrap/Image';
 import './app.css';
 
 export default function FadeInSection() {
@@ -31,19 +32,19 @@ export default function FadeInSection() {
                 <div className="bubble x8"></div>
             </div>
             <div id="container"> 
-                <h1 className="title_heading">Hi! I'm <b>Archie Goli.</b></h1>
+                <h1 className="title_heading">Hi! I&#39;m <b>Archie Goli.</b></h1>
                 <br></br>
                 <div className="title_description">
-                    <h4>I'm a 2nd-year <b>Computer Science & Math undergraduate</b> studying at the <b>Georgia Institute of Technology.</b></h4>
+                    <h4>I&#39;m a 2nd-year <b>Computer Science & Math undergraduate</b> studying at the <b>Georgia Institute of Technology.</b></h4>
                     <br className="title-breaks"></br>
-                    <h4>I'm interested in <b>Data Science, AI/ML, Web3,</b> and <b>Quantitative Finance</b> technologies.</h4>
+                    <h4>I&#39;m interested in <b>Data Science, AI/ML, Web3,</b> and <b>Quantitative Finance</b> technologies.</h4>
                     <br className="title-breaks"></br>
-                    <h4>I'm also an avid <b>classical violinist</b> and <b>Carnatic vocalist.</b> You can see me organizing an <b>SCPC event</b> or host workshops with <b>Data Science @ Georgia Tech</b> on campus!</h4>
+                    <h4>I&#39;m also an avid <b>classical violinist</b> and <b>Carnatic vocalist.</b> You can see me organizing an <b>SCPC event</b> or host workshops with <b>Data Science @ Georgia Tech</b> on campus!</h4>
                     <br className="title-breaks"></br>
                 </div> 
             </div>
             <div id="container-2">
-                <img className="profile-image" src="images/profile-pic.png" alt="profile-pic" id="profile-pic"></img>
+                <Image className="profile-image" src="images/profile-pic.png" alt="profile-pic" id="profile-pic" />
             </div>
         </div>
     </>
