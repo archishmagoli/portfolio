@@ -1,0 +1,162 @@
+.brand-link {
+    margin-left: 4cqw;
+}
+
+.last-link {
+    margin-right: 4cqw;
+}
+
+.title-breaks {
+    line-height: 0.25em;
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.2s ease-out, transform 0.6s ease-out;
+    will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+    display: flex; 
+}
+
+#overarching_container {
+    height: auto;
+    display: flex;
+    margin-top: 2cqw;
+    overflow: auto;
+}
+
+#container {
+    height: auto;
+    display: inline-block;
+    width: 55vw; 
+    margin: auto;
+    overflow: auto;
+}
+
+#container-2 {
+    height: auto;
+    width: 35vw; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 3cqw;
+}
+
+.profile-image {
+    height: 400px;
+    width: 400px; 
+    align-items: center;
+    margin-right: 2cqw;
+}
+
+.title_heading {
+    font-size: 5em;
+    text-align: left;
+    font-weight: 600;
+    color: #000000;
+}
+
+.title_description {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #000000;
+    text-align: left;
+}
+
+@keyframes bubblesAnimation {
+    0% {
+        margin-top: 500px; /* starting point */
+    }
+
+    100% {
+        margin-top: -100%; /* disappearing from screen upwards */
+    }
+}
+
+@keyframes sides {
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 50px;
+    }
+}
+
+/* Animations for each bubble */
+.x1 {
+    left: 12%;
+    top: 18%;
+}
+
+.x2 {
+    left: 5%;
+    top: 45%;
+}
+
+.x3 {
+    left: 25%;
+    top: 30%;
+}
+
+.x4 {
+    left: 72%;
+    top: 56%;
+}
+
+.x5 {
+    left: 84%;
+    top: 61%;
+}
+
+.x6 {
+    left: 51%;
+    top: 52%;
+}
+
+.x7 {
+    left: 31%;
+    top: 34%;
+}
+
+.x8 {
+    left: 77%;
+    top: 89%;
+}
+
+.bubble {
+    -webkit-animation: bubblesAnimation 15s linear infinite, sides 5s ease-in-out infinite alternate;
+    -moz-animation: bubblesAnimation 15s linear infinite, sides 5s ease-in-out infinite alternate;
+    animation: bubblesAnimation 15s linear infinite, sides 5s ease-in-out infinite alternate;
+
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    -webkit-box-shadow: 0 20px 30px 0 rgba(107, 107, 107, 0.5), inset 0px 10px 30px 5px rgb(165, 209, 250);
+    -moz-box-shadow: 0 20px 30px 0 rgba(107, 107, 107, 0.5), inset 0px 10px 30px 5px rgb(255, 255, 255, 1);
+    box-shadow: 0 20px 30px 0 rgba(107, 107, 107, 0.5), inset 0px 10px 30px 5px rgb(132, 185, 245);
+
+    height: 200px;
+    position: absolute;
+    width: 200px;
+}
+
+#bubble-wrap {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
