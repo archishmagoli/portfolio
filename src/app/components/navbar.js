@@ -14,8 +14,8 @@ function Nav_bar() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
             <Nav className="nav">
-              <Nav.Link href="/">About Me</Nav.Link>
-              <Nav.Link href="/projects">Projects</Nav.Link>
+              <Nav.Link href="./">About Me</Nav.Link>
+              <Nav.Link href="./projects">Projects</Nav.Link>
               <Nav.Link href="#action2">Research</Nav.Link>
               <Nav.Link href="#action2">Resume</Nav.Link>
               <Nav.Link className="last-link" href="#action3">Coursework</Nav.Link>
