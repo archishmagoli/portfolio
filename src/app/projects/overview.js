@@ -5,16 +5,15 @@ export default function Overview() {
     const [isVisible, setVisible] = useState(false);
 
     const domRef = useRef();
-    current = domRef.current;
 
     useEffect(() => {
         const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => entry.isIntersecting && setVisible(true));
         });
 
-        observer.observe(current);
+        observer.observe(domRef.current);
 
-        return () => observer.unobserve(current);
+        return () => observer.unobserve(domRef.current);
     }, []);
 
     return (
