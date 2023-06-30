@@ -1,3 +1,9 @@
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .navbar { margin : 0 !important; }
 
 .brand-link {
@@ -9,10 +15,11 @@
 }
 
 .footer {
-    background-color: skyblue;
+    background-color: #B4D3FF;
     width: 100%; 
     vertical-align: middle;
     text-align: center;
+    margin-top: auto;
 }
 
 .fade-in-section {
@@ -31,7 +38,7 @@
 }
 
 #overarching_container {
-    height: auto;
+    height: 100%;
     display: flex;
     margin-top: 2cqw;
     overflow: auto;
@@ -54,7 +61,7 @@
 }
 
 #projects-container {
-    height: 50%;
+    height: auto;
     display: inline-block;
     width: 100%; 
     margin: auto;
