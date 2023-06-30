@@ -1,3 +1,5 @@
+.navbar { margin : 0 !important; }
+
 .brand-link {
     margin-left: 4cqw;
 }
@@ -6,13 +8,16 @@
     margin-right: 4cqw;
 }
 
-.title-breaks {
-    line-height: 0.25em;
+.footer {
+    background-color: skyblue;
+    width: 100%; 
+    vertical-align: middle;
+    text-align: center;
 }
 
 .fade-in-section {
     opacity: 0;
-    transform: translateY(20vh);
+    transform: translateY(5vh);
     visibility: hidden;
     transition: opacity 0.2s ease-out, transform 0.6s ease-out;
     will-change: opacity, visibility;
@@ -45,28 +50,52 @@
     width: 35vw; 
     align-items: center;
     justify-content: center;
-    margin-top: 3cqw;
+    text-align: center;
+}
+
+#projects-container {
+    height: 50%;
+    display: inline-block;
+    width: 100%; 
+    margin: auto;
+    overflow: auto;
 }
 
 .profile-image {
-    height: 400px;
-    width: 400px; 
+    height: 375px;
+    width: 375px; 
     align-items: center;
-    margin-right: 2cqw;
+}
+
+.general-text {
+    margin-top: 2cqw;
+    text-align: center;
+    color: #000000;
+}
+
+.heading {
+    font-size: 4.5em;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.title_text {
+    color: #000000;
+    text-align: left;
 }
 
 .title_heading {
-    font-size: 5em;
-    text-align: left;
+    font-size: 4.5em;
     font-weight: 600;
-    color: #000000;
 }
 
 .title_description {
     font-size: 1.5em;
     font-weight: 500;
-    color: #000000;
-    text-align: left;
 }
 
 @keyframes bubblesAnimation {
@@ -147,9 +176,9 @@
     -moz-box-shadow: 0 20px 30px 0 rgba(107, 107, 107, 0.5), inset 0px 10px 30px 5px rgb(255, 255, 255, 1);
     box-shadow: 0 20px 30px 0 rgba(107, 107, 107, 0.5), inset 0px 10px 30px 5px rgb(132, 185, 245);
 
-    height: 200px;
+    height: 10rem;
     position: absolute;
-    width: 200px;
+    width: 10rem;
 }
 
 #bubble-wrap {
@@ -159,4 +188,12 @@
     right: 0;
     top: 0;
     z-index: -1;
+}
+
+.socials {
+    display: flex;
+}
+
+.social-icon {
+    margin: 0.5em;
 }
