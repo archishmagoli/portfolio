@@ -2,7 +2,7 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
 import { SocialIcon } from 'react-social-icons';
-import { FaEnvelope, FaEnvelopeSquare, FaGithub, FaHeart, FaLinkedin, FaMailBulk, FaRegEnvelopeOpen } from "react-icons/fa";
+import { FaEnvelope, FaEnvelopeSquare, FaGithub, FaHeart, FaLinkedin, FaMailBulk } from "react-icons/fa";
 
 export default function Footer() {
     return (
@@ -12,7 +12,7 @@ export default function Footer() {
                 <div class="row">
                     <div class="col-sm">
                         <h5>Contact Me</h5>
-                        <p>I'm open to internship/research opportunities, as well as networking/having a chat!</p>
+                        <p>I&#39;m open to internship/research opportunities, as well as networking/having a chat!</p>
                     </div>
                     <div class="col-sm">
                         <h5>Email</h5>

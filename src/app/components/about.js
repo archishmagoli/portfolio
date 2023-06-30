@@ -46,7 +46,7 @@ export default function Header() {
           </div>
           <div id="container-2">
               <Image className="profile-image" src="images/profile-pic.png" alt="profile-pic" id="profile-pic" />
-              <h4>Let's Connect!</h4>
+              <h4>Let&#39;s Connect!</h4>
               <div className='social-icons'>
                 <SocialIcon className="social-icon" url="https://www.linkedin.com/in/archishma-goli/" />
                 <SocialIcon className="social-icon" url="https://github.com/archishmagoli" />
