@@ -4,10 +4,14 @@
     flex-direction: column;
 }
 
-.navbar { margin : 0 !important; }
+.navbar { 
+    margin : 0 !important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
 
 .brand-link {
     margin-left: 4cqw;
+    text-shadow: 1px 1px 1px black;
 }
 
 .last-link {
@@ -52,6 +56,44 @@
     overflow: auto;
 }
 
+#ksu {
+    height: auto;
+    display: inline-block;
+    width: auto;
+    margin-top: 2cqw;
+    margin-left: 5cqw; 
+    margin-right: 5cqw;
+    overflow: auto;
+}
+
+#ksu-text {
+    height: auto;
+    display: inline-block;
+    width: auto;
+    margin-left: 5cqw; 
+    margin-right: 5cqw;
+    overflow: auto;
+}
+
+.map {
+    width: 90%;
+}
+
+table, th, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+  
+th {
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
 #container-2 {
     height: auto;
     width: 35vw; 
@@ -60,12 +102,10 @@
     text-align: center;
 }
 
-#projects-container {
-    height: auto;
+#container {
     display: inline-block;
-    width: 100%; 
-    margin: auto;
     overflow: auto;
+    margin-top: 2cqw;
 }
 
 .profile-image {
@@ -75,9 +115,12 @@
 }
 
 .general-text {
-    margin-top: 2cqw;
-    text-align: center;
+    margin-top: 0;
     color: #000000;
+}
+
+.padding {
+    height: 1em;
 }
 
 .heading {
@@ -88,6 +131,11 @@
 .description {
     font-size: 1.5em;
     font-weight: 500;
+}
+
+.course-name {
+    padding: 0px;
+    margin-bottom: 0px;
 }
 
 .title_text {

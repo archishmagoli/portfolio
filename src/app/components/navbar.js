@@ -10,15 +10,15 @@ function Nav_bar() {
     <>
       <Navbar className="navbar" bg="primary" data-bs-theme="dark" sticky="top" expand="lg">
         <Container fluid>
-          <Navbar.Brand className="brand-link">Archie Goli</Navbar.Brand>
+          <Navbar.Brand className="brand-link"><b>Archie Goli</b></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
             <Nav className="nav">
               <Nav.Link href="./">About Me</Nav.Link>
               <Nav.Link href="./projects">Projects</Nav.Link>
-              <Nav.Link href="#action2">Research</Nav.Link>
-              <Nav.Link href="#action2">Resume</Nav.Link>
-              <Nav.Link className="last-link" href="#action3">Coursework</Nav.Link>
+              <Nav.Link href="./research">Research</Nav.Link>
+              <Nav.Link href="../../resume.pdf">Resume</Nav.Link>
+              <Nav.Link className="last-link" href="./coursework">Coursework</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
