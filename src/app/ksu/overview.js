@@ -58,6 +58,34 @@ export default function Overview() {
                     <li>≤ 10% Character Error Rate (CER)</li>
                     <li>≤ 40% Word Error Rate (WER)</li>
                 </ul>
+                <table>
+                    <caption><b>Table 1. </b>The table above shows the accuracy, CER, and WER of the validation and testing datasets. The model was considered a successful prototype 
+                        because it met the thresholds established for each of the values collected.</caption>
+                        <tbody>
+                        <tr>
+                            <th>Dataset</th>
+                            <th>Accuracy</th>
+                            <th>Character Error Rate</th>
+                            <th>Total Number of Names</th>
+                            <th>Word Error Rate</th>
+                        </tr>
+                        <tr>
+                            <td>Validation</td>
+                            <td>92.92%</td>
+                            <td>7.08%</td>
+                            <td>6,015</td>
+                            <td>27.86%%</td>
+                        </tr>
+                        <tr>
+                            <td>Testing</td>
+                            <td>93.20%</td>
+                            <td>6.80%</td>
+                            <td>15,867</td>
+                            <td>26.24%</td>
+                        </tr>
+                        </tbody>
+                </table>
+
                 <div className="padding"></div>
             
                 <h4>Adversarial Attack & Subsequent Training</h4>
@@ -66,13 +94,41 @@ export default function Overview() {
                 0.1 (see table below). The model was considered robust if its accuracy after adversarial training increased at least 10% for the ε = 0.1 image dataset when compared 
                 to the accuracy of the model before adversarial training. </p>
                 <p>The adversarial training process was considered a success, as the model&#39;s accuracy for the ε = 0.1 image dataset after training increased by <b>more than 30%</b> in 
-                    comparison to the accuracy before training. Interestingly, 
-                    this robustness also expanded to more severely perturbed epsilon values, as shown in the table below. </p>
-                <ul>
-                    <li>≥ 85% overall accuracy</li>
-                    <li>≤ 10% Character Error Rate (CER)</li>
-                    <li>≤ 40% Word Error Rate (WER)</li>
-                </ul>
+                comparison to the accuracy before training. Interestingly, this robustness also expanded to more severely perturbed epsilon values, as shown in the table below. </p>
+
+                <table>
+                    <caption><b>Table 2. </b>The adversarial training process was considered a success, as the model's accuracy for the ε = 0.1 image dataset after training increased by more than 30% in comparison to the accuracy before training. 
+                    Interestingly, this robustness also expanded to more severely perturbed epsilon values, as shown in the table. </caption>
+                    <tbody>
+                        <tr>
+                            <th>Epsilon Value</th>
+                            <th>Accuracy Before Adversarial Training</th>
+                            <th>Accuracy After Adversarial Training</th>
+                        </tr>
+                        <tr>
+                            <td>ε = 0.1</td>
+                            <td>62.30%</td>
+                            <td>95.72%</td>
+                        </tr>
+                        <tr>
+                            <td>ε = 0.15</td>
+                            <td>57.48%</td>
+                            <td>95.80%</td>
+                        </tr>
+                        <tr>
+                            <td>ε = 0.25</td>
+                            <td>41.50%</td>
+                            <td>94.90%</td>
+                        </tr>
+                        <tr>
+                            <td>ε = 0.5</td>
+                            <td>14.11%</td>
+                            <td>72.39%</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div className="padding"></div>
             
                 <h4>Conclusions and Implications</h4>
                 <p className="general-text">This study aimed to determine how an effective and robust deep neural network for handwriting recognition can be built, evaluated, 
