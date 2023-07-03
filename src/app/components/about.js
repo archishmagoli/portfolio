@@ -34,7 +34,7 @@ export default function Header() {
           </div>
           <div id="container"> 
               <h1 className="title_heading title-text">Hi! I&#39;m <b>Archie Goli.</b></h1>
-              <br></br>
+              <hr />
               <div className="title_description title-text">
                   <h4>I&#39;m a 2nd-year <b>Computer Science & Math undergraduate</b> studying at the <b>Georgia Institute of Technology.</b></h4>
                   <br></br>
@@ -52,7 +52,9 @@ export default function Header() {
                 <SocialIcon className="social-icon" url="https://github.com/archishmagoli" />
               </div>
           </div>
-      </div>
+        </div>
+
+        <div className="padding"></div>
     </>
   )
 }

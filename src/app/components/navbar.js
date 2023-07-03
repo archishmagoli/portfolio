@@ -16,7 +16,7 @@ function Nav_bar() {
             <Nav className="nav">
               <Nav.Link href="./">About Me</Nav.Link>
               <Nav.Link href="./projects">Projects</Nav.Link>
-              <Nav.Link href="#action2">Research</Nav.Link>
+              <Nav.Link href="./research">Research</Nav.Link>
               <Nav.Link href="../../resume.pdf">Resume</Nav.Link>
               <Nav.Link className="last-link" href="./coursework">Coursework</Nav.Link>
             </Nav>

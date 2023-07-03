@@ -19,8 +19,8 @@ export default function Overview() {
     return (
         <>
             <div id="container" ref={ domRef } className={ `fade-in-section ${ isVisible ? 'is-visible' : '' }` }>
-                <h1 className="heading general-text"><b>My Projects</b></h1>
-                <h4 className="description general-text">A compilation of my personal and collaborative projects.</h4>
+                <h1 className="heading general-text"><b>Research</b></h1>
+                <h4 className="description general-text">My research endeavors so far.</h4>
                 <hr />
             </div>
         </>
