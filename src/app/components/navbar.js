@@ -18,7 +18,7 @@ function Nav_bar() {
               <Nav.Link href="./projects">Projects</Nav.Link>
               <Nav.Link href="#action2">Research</Nav.Link>
               <Nav.Link href="../../resume.pdf">Resume</Nav.Link>
-              <Nav.Link className="last-link" href="#action3">Coursework</Nav.Link>
+              <Nav.Link className="last-link" href="./coursework">Coursework</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

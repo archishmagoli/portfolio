@@ -60,12 +60,10 @@
     text-align: center;
 }
 
-#projects-container {
-    height: auto;
+#container {
     display: inline-block;
-    width: 100%; 
-    margin: auto;
     overflow: auto;
+    margin-top: 2cqw;
 }
 
 .profile-image {
@@ -75,9 +73,12 @@
 }
 
 .general-text {
-    margin-top: 2cqw;
-    text-align: center;
+    margin-top: 0;
     color: #000000;
+}
+
+.padding {
+    height: 50px;
 }
 
 .heading {
@@ -88,6 +89,11 @@
 .description {
     font-size: 1.5em;
     font-weight: 500;
+}
+
+.course-name {
+    padding: 0px;
+    margin-bottom: 0px;
 }
 
 .title_text {
