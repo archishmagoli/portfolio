@@ -52,6 +52,44 @@
     overflow: auto;
 }
 
+#ksu {
+    height: auto;
+    display: inline-block;
+    width: auto;
+    margin-top: 2cqw;
+    margin-left: 5cqw; 
+    margin-right: 5cqw;
+    overflow: auto;
+}
+
+#ksu-text {
+    height: auto;
+    display: inline-block;
+    width: auto;
+    margin-left: 5cqw; 
+    margin-right: 5cqw;
+    overflow: auto;
+}
+
+.map {
+    width: 90%;
+}
+
+table, th, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+  
+th {
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
 #container-2 {
     height: auto;
     width: 35vw; 
@@ -78,7 +116,7 @@
 }
 
 .padding {
-    height: 50px;
+    height: 1em;
 }
 
 .heading {

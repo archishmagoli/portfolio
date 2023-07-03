@@ -47,7 +47,7 @@ export default function Overview() {
                     <ul>
                         <li className="course-name"><b>CIST 1401:</b> Computer Networking Fundamentals
                             <ul>
-                                <li className="course-name"><a href="../../computing_paper">Research Paper</a> on Cloud Computing.</li>
+                                <li className="course-name"><a href = "../../../computing_paper.pdf">Research Paper</a> on Cloud Computing.</li>
                             </ul>
                         </li>
                         <li className="course-name"><b>CIST 1601:</b> Information Security Fundamentals</li>
