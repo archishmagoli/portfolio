@@ -51,7 +51,8 @@ export default function Overview() {
                 <ul>
                     <li className="course-name">I worked with Assistant Professor <b>Dr. Selena He</b> to explore the impact of <b>adversarial attacks</b> on <b>Deep Learning models</b>.</li>
                     <li className="course-name">I built my own deep learning model using the <b>Tensorflow</b> and <b>Keras</b> libraries, and I implemented several degrees of gradient-based <b>black-box adversarial attacks</b>, examining their impact on the accuracy of the model (which was designed to classify handwritten text).</li>
-                    <li className="course-name">You can read more <a href="./ksu">here</a>, and here is my <a href="../../../Goli_FinalPaper.pdf">final paper</a>.</li>
+                    <li className="course-name">You can read more <a href="./ksu">here</a>, and here is my 
+                    <a href="https://drive.google.com/file/d/1kRp8YeaP9sWZdWTWQ6OsLLKbfl-Blf9L/view?usp=sharing">final paper</a>.</li>
                 </ul>
             </div>
             <div className="padding"></div>
