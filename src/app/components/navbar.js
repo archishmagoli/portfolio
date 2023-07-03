@@ -10,7 +10,7 @@ function Nav_bar() {
     <>
       <Navbar className="navbar" bg="primary" data-bs-theme="dark" sticky="top" expand="lg">
         <Container fluid>
-          <Navbar.Brand className="brand-link">Archie Goli</Navbar.Brand>
+          <Navbar.Brand className="brand-link"><b>Archie Goli</b></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
             <Nav className="nav">

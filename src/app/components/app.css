@@ -4,10 +4,14 @@
     flex-direction: column;
 }
 
-.navbar { margin : 0 !important; }
+.navbar { 
+    margin : 0 !important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
 
 .brand-link {
     margin-left: 4cqw;
+    text-shadow: 1px 1px 1px black;
 }
 
 .last-link {
