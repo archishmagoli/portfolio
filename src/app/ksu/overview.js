@@ -97,7 +97,7 @@ export default function Overview() {
                 comparison to the accuracy before training. Interestingly, this robustness also expanded to more severely perturbed epsilon values, as shown in the table below. </p>
 
                 <table>
-                    <caption><b>Table 2. </b>The adversarial training process was considered a success, as the model's accuracy for the ε = 0.1 image dataset after training increased by more than 30% in comparison to the accuracy before training. 
+                    <caption><b>Table 2. </b>The adversarial training process was considered a success, as the model&#39;s accuracy for the ε = 0.1 image dataset after training increased by more than 30% in comparison to the accuracy before training. 
                     Interestingly, this robustness also expanded to more severely perturbed epsilon values, as shown in the table. </caption>
                     <tbody>
                         <tr>
