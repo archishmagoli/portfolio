@@ -28,7 +28,7 @@ export default function Overview() {
                 <ul>
                     <li className="course-name">I&#39;m collaborating with current PhD and Master&#39;s students to conduct <b>sentiment analysis</b> and <b>Natural Language Processing</b> on social media data to provide key insights to nudge authors (members who draft text message &#34;nudges&#34; to inform the general population).</li>
                     <li className="course-name">The project is a joint collaboration between <b>Georgia Tech</b>, <b>Emory University</b>, and the <b>Morehouse School of Medicine.</b></li>
-                    <li className="course-name">To pivot the project's shift to analytics, I created <b>dashboard of insights</b> using <b>Plotly</b> and <b>Dash</b> that clearly displays the most important information coming from health-related posts from platforms such as Twitter, Instagram, and Facebook.</li>
+                    <li className="course-name">To pivot the project&#39;s shift to analytics, I created <b>dashboard of insights</b> using <b>Plotly</b> and <b>Dash</b> that clearly displays the most important information coming from health-related posts from platforms such as Twitter, Instagram, and Facebook.</li>
                     <li className="course-name">Within this broader goal is a commitment to publish a <b>retrospective analysis</b> study in the coming months, through the lens of COVID-related sentiment from 2020 to 2023.</li>
                 </ul>
 
