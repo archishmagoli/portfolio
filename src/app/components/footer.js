@@ -9,18 +9,18 @@ export default function Footer() {
         <>
             <Container fluid className="footer">
                 <br></br>
-                <div class="row">
-                    <div class="col-sm">
+                <div className="row">
+                    <div className="col-sm">
                         <h5>Contact Me</h5>
                         <p>I&#39;m open to internship/research opportunities, as well as networking/having a chat!</p>
                     </div>
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <h5>Email</h5>
                         <FaEnvelope /> <a href="mailto:agoli6@gatech.edu"> agoli6@gatech.edu</a>
                         <br></br>
                         <FaMailBulk /> <a href="mailto:archishma.goli@gmail.com"> archishma.goli@gmail.com</a>
                     </div>
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <h5>Socials</h5>
                         <FaLinkedin /> <a href="https://www.linkedin.com/in/archishma-goli/"> LinkedIn</a>
                         <br></br>

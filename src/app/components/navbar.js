@@ -17,7 +17,7 @@ function Nav_bar() {
               <Nav.Link href="./">About Me</Nav.Link>
               <Nav.Link href="./projects">Projects</Nav.Link>
               <Nav.Link href="./research">Research</Nav.Link>
-              <Nav.Link href="https://drive.google.com/file/d/1BVw8C0lRYpL7PRo6KmczASkLEi_dIaII/view?usp=sharing">Resume</Nav.Link>
+              <Nav.Link href="https://drive.google.com/file/d/1UnLCRgepO4ydtOq80bLkwvG3Yva9QrkF/view?usp=sharing">Resume</Nav.Link>
               <Nav.Link className="last-link" href="./coursework">Coursework</Nav.Link>
             </Nav>
           </Navbar.Collapse>
