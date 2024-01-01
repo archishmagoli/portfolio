@@ -26,8 +26,8 @@ export default function Overview() {
                 <div className="general-text">
                     <h5><i>Mathematics</i></h5>
                     <ul>
-                        <li className="course-name"><b>MATH 3235:</b> Probability Theory <i>(In Progress)</i></li>
-                        <li className="course-name"><b>MATH 2552:</b> Differential Equations <i>(In Progress)</i></li>
+                        <li className="course-name"><b>MATH 3235:</b> Probability Theory <i></i></li>
+                        <li className="course-name"><b>MATH 2552:</b> Differential Equations <i></i></li>
                         <li className="course-name"><b>MATH 3012:</b> Applied Combinatorics</li>
                         <li className="course-name"><b>MATH 2106:</b> Foundations of Mathematical Proof</li>
                         <li className="course-name"><b>MATH 2551:</b> Multivariable Calculus</li>
@@ -36,7 +36,8 @@ export default function Overview() {
                     <h5><i>Computer Science</i></h5>
                     <ul>
                         <li className="course-name"><b>CS 3511:</b> Design and Analysis of Algorithms - Honors <i>(In Progress)</i></li>
-                        <li className="course-name"><b>CS 2110:</b> Computer Organization and Programming <i>(In Progress)</i></li>
+                        <li className="course-name"><b>CS 2200:</b> Computer Systems and Networks <i>(In Progress)</i></li>
+                        <li className="course-name"><b>CS 2110:</b> Computer Organization and Programming <i></i></li>
                         <li className="course-name"><b>CS 2340:</b> Objects and Design</li>
                         <li className="course-name"><b>CS 1332:</b> Data Structures and Algorithms</li>
                         <li className="course-name"><b>CS 1331:</b> Introduction to Object-Oriented Programming</li>

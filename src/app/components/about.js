@@ -40,7 +40,7 @@ export default function Header() {
                   <br></br>
                   <h4>I&#39;m interested in exploring <b>Data Science, AI/ML, Web3,</b> and <b>Quantitative Finance</b> on a deep level.</h4>
                   <br></br>
-                  <h4>You can catch me <b>playing violin</b> at a <b>GT Symphony Orchestra concert</b>, organizing an <b>SCPC event</b>, or hosting workshops with <b>Data Science @ Georgia Tech</b> on campus!</h4>
+                  <h4>I enjoy <b>going on an outdoor run</b> and <b>playing the violin</b> in my free time!</h4>
                   <br></br>
               </div> 
           </div>
