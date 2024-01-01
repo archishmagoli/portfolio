@@ -29,14 +29,14 @@ export default function Overview() {
                     for Georgia Tech&#39;s Earth Sciences department.</li>
                     <li>I&#39;ve collaborated with 2 professors within the Earth Sciences department, Dr. Meg Grantham and Dr. Erin Griffith, to begin this initative with QuakeCaster.</li>
                     <li className="course-name"><b>QuakeCaster</b> is a fully automated earthquake simulation lab setup, designed to re-enact the strike-slip faults associated with tremors from the Earth.</li>
-                    <li className="course-name">Check out the project's GitHub repository <a href="https://github.com/archishmagoli/QuakeCaster">here!</a></li>
+                    <li className="course-name">Check out the project&#39;s GitHub repository <a href="https://github.com/archishmagoli/QuakeCaster">here!</a></li>
                 </ul>
 
                 <h5 className="general-text"><b>SpaceX: Falcon 9 Launch and Landing Predictions</b></h5>
                 <div className="general-text">
                     <ul>
                         <li className="course-name">In this project, I predicted the launch and landing probabilities of the first stage of the SpaceX Falcon 9 rocket through machine learning, data visualization, and analytics conducted in Python.</li>
-                        <li className="course-name">I extracted datasets through an open-source <b>SpaceX REST API</b> and used web scraping with Python's <b>BeautifulSoup library</b> to gather additional historical data on SpaceX launch and landing proceedings.</li>
+                        <li className="course-name">I extracted datasets through an open-source <b>SpaceX REST API</b> and used web scraping with Python&#39;s <b>BeautifulSoup library</b> to gather additional historical data on SpaceX launch and landing proceedings.</li>
                         <li className="course-name">I also conducted exploratory data analysis through <b>SQL, Matplotlib, and Pandas,</b> extracting relationships between key performance variables like <b>payload mass, orbit type, launch site, and mission status</b>.</li>
                         <li>I created visualizations using <b>Folium</b> and generated an interactive analytical dashboard of results with Python&#39;s <b>Plotly and Dash</b> frameworks.</li>
                         <li>I trained three different machine learning models <b>(Decision Tree Classifier, K-Nearest Neighbors, and SVM)</b> and analyzed which would be the most accurate at predicting whether a given launch would land the first stage successfully.</li>
@@ -48,7 +48,7 @@ export default function Overview() {
                 <h5 className="general-text"><b>AllerGEN</b></h5>
                 <div className="general-text">
                     <ul>
-                        <li className="course-name">In this project, I created a web application using <b>React</b> and <b>Flask</b> that analyzes uploaded nutritional labels to determine a user's allergies and minimizes allergen-related risks.</li>
+                        <li className="course-name">In this project, I created a web application using <b>React</b> and <b>Flask</b> that analyzes uploaded nutritional labels to determine a user&#39;s allergies and minimizes allergen-related risks.</li>
                         <li className="course-name">With <b>Python</b> and the <b>Tesseract OCR API</b>, I successfully extracted data from nutritional label images, achieving a 72% accuracy rate.</li>
                         <li className="course-name">I developed a <b>REST API</b> that notifies users about all nutritional ingredients to which they might be allergic.</li>
                         <li className="course-name">Check out the project GitHub repository <a href="https://github.com/archishmagoli/allergen">here!</a></li>
